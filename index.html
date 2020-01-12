@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="index.php" method="POST">
+        <input type="text" name="name" placeholder="name"> <br>
+        <input type="text" name="lastanme" placeholder="lastname"><br>
+        <input type="password" name="password" placeholder="password"><br>
+
+        <select name="profession">
+            <option selected disabled > Profession: </option>
+            <option value="frontend"> Frontend Developer</option>
+            <option value="backend"> Backend Developer</option>
+        </select>    
+
+        <input type="checkbox" name="work" value="true" > A jeni i kenaqur <br>
+        
+        <input type="radio" name="gender" value="male" required > Male <br>
+        <input type="radio" name="gender" value="female" required > Female <br>
+
+        <input type="radio" name="graduate" value="Graduated" required > Graduated <br>
+        <input type="radio" name="graduate" value="Not Graduated" required >Not Graduated <br>
+
+        <input type="submit" name="submit"> <br>
+    </form>
+
+</body>
+</html>
